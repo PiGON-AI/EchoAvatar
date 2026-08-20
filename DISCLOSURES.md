@@ -15,6 +15,7 @@ entire network surface. If it's not listed here, it doesn't happen.
 |---|---|---|---|---|
 | FFmpeg audio engine (for Milo's Ear) | Once, only if you turn on the wake word AND your machine has no engine, only after a consent dialog that names the download and its size | ~48 MB on Windows (~28–34 MB on macOS) | `github.com/PiGON-AI/Echotools-Runtime` (our immutable release `milo-ear-v1` — assets are never overwritten; new builds get new releases) | Archive SHA-256 **and** extracted-binary SHA-256 pinned in the extension source, plus a hard size cap enforced while downloading; any mismatch is discarded and nothing is installed |
 | "Watch it in higher resolution on the web" link (Meet EchoAvatar panel) | Only when you click it | opens your browser | `echotools.dev` | n/a — browser navigation; the panel's own film ships inside the package and plays locally |
+| The one-time review invitation's buttons (asked once, after 25 spoken replies, never again) | Only when you click them | opens your browser | the Marketplace listing, or `github.com/pigon-ai/echoavatar` for feedback | n/a — browser navigation |
 
 That is the whole table on purpose. Everything else Milo is — music, sound
 effects, films, recorded lines, wake-word models — ships inside the

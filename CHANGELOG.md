@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19.2
+
+- EchoAvatar wears its mark: ™ on the listing name (the readme had it
+  already).
+- Milo asks for a review — once, ever: after 25 replies genuinely spoken
+  through him (his own chatter and music don't count), a single
+  invitation with a "Don't ask again" that means it.
+
 ## 0.19.1
 
 - EchoVoice's Marketplace identifier changed to `pigonai.echo-voice`
