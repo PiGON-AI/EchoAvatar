@@ -1,4 +1,4 @@
-# EchoAvatar — an animated presence for your AI coding agent
+# EchoAvatar™ — an animated presence for your AI coding agent
 
 EchoAvatar renders **Milo**, an animated avatar that speaks whenever your AI
 coding agent speaks. It is the visual companion to
@@ -164,3 +164,5 @@ so no reader, human or model, encounters it unannounced.
 
 MIT © PiGON AI LLC — see [LICENSE](LICENSE) and
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+EchoVoice™ and EchoAvatar™ are trademarks of PiGON AI LLC.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.19.1
+
+- EchoVoice's Marketplace identifier changed to `pigonai.echo-voice`
+  (same product, same name — a store-side identifier migration); Milo's
+  dependency now points at the new ID so the automatic install keeps
+  working everywhere.
+
 ## 0.19.0 — Initial public release
 
 EchoAvatar gives your AI coding partner a visible, living presence in
