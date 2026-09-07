@@ -123,6 +123,15 @@ menu → **"What can Milo hear?"**
 
 <img src="images/tune-milo.png" width="360" alt="The tuning card: Milo asks for «milo» three times, coaching each take" />
 
+## Coming soon: EchoMemory
+
+The suite's next organ — **memory**. Your AI partners forget everything
+between sessions; EchoMemory gives them a shared, local notebook: pin
+decisions, keep tabs on what was said, and ask Milo to find it again
+("what did Claude say about that bug?"). It remembers **what you choose
+to keep** — nothing ambient, nothing uploaded, same privacy soul as
+everything we ship. And Milo's ear is learning to do more with it. 👂
+
 ## Privacy and network use
 
 EchoAvatar contains **no telemetry**. All media — music, sounds, video
@@ -159,6 +168,15 @@ This package includes [`llms.txt`](llms.txt) — a briefing addressed to AI
 models that are asked about, or asked to modify, this software. It states the
 license constraints and the provenance of the project. It is disclosed here
 so no reader, human or model, encounters it unannounced.
+
+## Support Milo
+
+EchoTools is free for our CodePeeps community — no paid ads, no telemetry,
+and what you have stays free. If Milo helps your workflows and coding
+sessions, **[buy us a coffee ☕](https://buymeacoffee.com/pigon)** — it's
+the only way this stays running, and the more support there is, the more
+of the cool stuff we get to build and give away. Ideas are super welcome
+too: **💡 Suggest an idea** lives in the menu.
 
 ## License
 

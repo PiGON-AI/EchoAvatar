@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.19.3
+
+- **Xie got her own speaker.** The most-asked-for fix since launch: you can
+  now mute the screensaver's soundtrack without muting Milo — a speaker
+  button on the night shift itself (it won't wake him), or the new
+  `echoavatar.screensaverSound` setting. The Mute pill still silences
+  everything, as a master mute should.
+- **💡 Suggest an idea** — a new menu item that opens our suggestion box.
+  Tell us what to build next; we actually read it.
+- **Coming soon: EchoMemory** — a peek at the suite's next organ in the
+  readme, plus a Support Milo section for the CodePeeps keeping the
+  lights on. ☕
+
 ## 0.19.2
 
 - EchoAvatar wears its mark: ™ on the listing name (the readme had it
