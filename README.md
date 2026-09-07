@@ -176,7 +176,8 @@ and what you have stays free. If Milo helps your workflows and coding
 sessions, **[buy us a coffee ☕](https://buymeacoffee.com/pigon)** — it's
 the only way this stays running, and the more support there is, the more
 of the cool stuff we get to build and give away. Ideas are super welcome
-too: **💡 Suggest an idea** lives in the menu.
+too: **[💡 Suggest an idea](https://github.com/pigon-ai/echoavatar/issues/new?template=idea.yml)**
+— it also lives in Milo's menu.
 
 ## License
 
