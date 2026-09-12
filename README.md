@@ -82,6 +82,13 @@ The walkthrough's first step opens the same panel.
 - **Xie's night shift** (optional, on by default) — when Milo falls asleep,
   Xie, the galaxy chameleon, drifts in as his screensaver. Visual-only,
   ships in the package, gone the instant you're back.
+- **Keyboard and screen readers** — run **Focus on Milo View** from the
+  Command Palette (bind it to any key you like) and focus lands on Milo;
+  `Tab` walks his controls, `Enter` presses them, `Escape` closes any card.
+  Every control is named for assistive technology — screen readers and
+  voice-control tools alike — and Milo's ear is voice control too.
+  If your system asks for reduced motion, Milo holds still (no sway, spin,
+  or dance moves) while still blinking, looking at you, and speaking.
 
 **Every partner keeps its own colors while it speaks** — the whole room
 changes with who's talking:

@@ -1,5 +1,42 @@
 # Changelog
 
+## 0.19.4
+
+- **Milo tells you when he can't hear a partner — and what to do about it.**
+  Your coding partners save their conversations in files we don't control,
+  and if one of them changes its format, EchoVoice goes quiet — and until now,
+  quiet-because-broken looked exactly like quiet-because-idle. Now EchoVoice
+  notices when a transcript changed but nothing in it made sense, and Milo
+  shows it: red X's for eyes (the swarm wears a red **!**), a line under him —
+  *"I can't read Claude Code right now"* — and he says so out loud, each body
+  in its own voice, once per machine (not once per open window), waiting his
+  turn if a partner is mid-reply. A red **Report it** pill
+  appears under him for exactly as long as the problem lasts; one click opens
+  a bug report in your browser, pre-filled with the versions, your editor, and
+  your OS — all visible and editable before you send. It's us, not you, and
+  now you can tell us in one click. Everything clears the moment things make
+  sense again.
+- **Milo works without a mouse.** His window is a real button — Tab to it (or
+  run **Focus on Milo View** and land right on him), press Enter, and a screen
+  reader hears exactly what to do: wake his sound, or say hi once it's awake.
+  The voice-tuning card and the
+  "which settings?" card are proper dialogs now: their small dismiss links are
+  real buttons, Escape closes them, and the keyboard is never left stranded.
+  Every control shows a visible focus ring. His action pills can be reached by
+  Tab even while faded, and they no longer vanish while you're on one. Xie's
+  speaker button tells assistive tech whether it's muted. And when Milo can't
+  read a partner, a screen reader hears it, not just sees it.
+- **Milo respects your reduced-motion setting.** If your system asks for less
+  motion, he holds still: no hovering or swaying, no spinning halo, no dance
+  moves or body bounces; the swarm stops turning and drifting and changes shape
+  in a snap instead of a glide. He still blinks, still looks at you, still
+  moves gently with speech — a living Milo, just a still one. Follows the OS
+  setting live, no reload needed.
+- **Under the hood.** The debug overlay (`echoavatar.debugOverlay`) now shows
+  Milo's frame rate and worst frame, so "is he stuttering?" has a number. And
+  the messages waiting for his window to load are bounded, so a window that
+  never finishes loading can't quietly eat memory.
+
 ## 0.19.3
 
 - **Xie got her own speaker.** The most-asked-for fix since launch: you can
