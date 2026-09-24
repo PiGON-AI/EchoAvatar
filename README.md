@@ -1,5 +1,13 @@
 # EchoAvatar™ — an animated presence for your AI coding agent
 
+**Milo is the AI partner who talks back — and he keeps growing.** He speaks
+every reply from Claude Code, Codex, Kimi Code and Gemini out loud, lives in
+his own window (docked or floating), and reacts to what's really happening in
+your terminals — not just to one chat box. He is not a mascot: he is the
+partner who grows with you as the family grows. With **EchoMemory** (next),
+he remembers your project. With **EchoVision**, he will see. Every tool we
+ship gives Milo a new sense.
+
 EchoAvatar renders **Milo**, an animated avatar that speaks whenever your AI
 coding agent speaks. It is the visual companion to
 [EchoVoice](https://github.com/pigon-ai/echovoice), which reads responses from
@@ -69,8 +77,17 @@ The walkthrough's first step opens the same panel.
   he answers out loud in his own voice; eight voice commands, recognized
   entirely on your machine. **Read the three field rules below before
   judging it — tuning is a must.**
-- **Dance / Chill** — bundled royalty-free tracks (see CREDITS.md); the
-  avatar moves to the actual beat. Stop from the pill or the transport bar.
+- **Dance / Chill** — this release's dance floor ships inside the extension
+  (see CREDITS.md); the avatar moves to the actual beat. Stop from the pill or
+  the transport bar. Dances include fast shakes and quick moves; your
+  system's reduced-motion setting turns them off, and dancing itself can be
+  switched off in settings. Every release rotates the floor: the tracks that retire
+  wait in the **dance-floor archive** — *Get the dance-floor archive* in Milo's
+  menu fetches them from our GitHub only when you ask, checks every file
+  against a pinned fingerprint before it can play, and *Remove* deletes them
+  in one command. **Your own music too:** set `echoavatar.musicFolder` to a
+  folder with `dance` and `chill` subfolders and your files join his playlist,
+  never leaving your machine.
 - **Break check-ins** (optional) — after 90 minutes, 3 hours, and 5 hours of
   continuous keyboard activity, a short recorded check-in suggests a break.
   Timing is computed locally from activity; nothing is stored or sent.
@@ -79,9 +96,12 @@ The walkthrough's first step opens the same panel.
   extension; nothing is generated or fetched at runtime.
 - **Transport controls** — pause, resume, stop, mute. Stop halts EchoVoice's
   queue too, so stopped means stopped.
-- **Xie's night shift** (optional, on by default) — when Milo falls asleep,
-  Xie, the galaxy chameleon, drifts in as his screensaver. Visual-only,
-  ships in the package, gone the instant you're back.
+- **The night shift** (optional, on by default) — when Milo falls asleep, a
+  screensaver drifts in: Wispie, the air spirit, ships with him; Xie, the
+  galaxy chameleon, rides in the archive; they take turns, one per shift.
+  Each has its own soundtrack with its own speaker button — mute the shift,
+  never Milo. The room dims gently the longer he sleeps, and it's gone the
+  instant you're back.
 - **Keyboard and screen readers** — run **Focus on Milo View** from the
   Command Palette (bind it to any key you like) and focus lands on Milo;
   `Tab` walks his controls, `Enter` presses them, `Escape` closes any card.
@@ -138,6 +158,28 @@ decisions, keep tabs on what was said, and ask Milo to find it again
 ("what did Claude say about that bug?"). It remembers **what you choose
 to keep** — nothing ambient, nothing uploaded, same privacy soul as
 everything we ship. And Milo's ear is learning to do more with it. 👂
+
+## What it costs — measured, not guessed
+
+We'd rather tell you than have you find out.
+
+- **Package:** about 48 MB to download, 63 MB on disk. Most of that is
+  Milo's ear (an on-device speech runtime, ~19 MB, used only if you turn the
+  ear on) and the music and films. This release added new music, a new
+  screensaver and new rooms and stayed the same size as the last one.
+- **Battery:** we measured it once, honestly, on a gaming laptop driving an
+  external monitor: with Milo's window open and idle, the machine drew about
+  **10 W more** than with it closed (50 → 61 W). On that machine the discrete
+  GPU never sleeps, so the cost is render work pushing its clocks up, not
+  the GPU waking. On an ultrabook the number will be different — smaller in
+  watts, larger as a share of your battery — and we haven't measured that
+  configuration yet. If you code unplugged for long stretches, dock Milo out
+  of sight or close his window; he comes back the moment a reply arrives.
+  What we found, ranked by leverage, is written up in the repo's
+  `POWER-PASS.md`, and we'll act on it the moment it matters to someone —
+  tell us at *Support Milo → Report a problem*.
+- **Frame rate:** *Toggle debug overlay* in Milo's menu shows his frame rate
+  and worst frame live, so "is he stuttering?" has a number on your machine.
 
 ## Privacy and network use
 
