@@ -17,10 +17,12 @@ entire network surface. If it's not listed here, it doesn't happen.
 | "Watch it in higher resolution on the web" link (Meet EchoAvatar panel) | Only when you click it | opens your browser | `echotools.dev` | n/a — browser navigation; the panel's own film ships inside the package and plays locally |
 | The one-time review invitation's buttons, and the menu's "Suggest an idea" | Only when you click them | opens your browser | the Marketplace listing, or `github.com/pigon-ai/echoavatar` for feedback and ideas | n/a — browser navigation |
 | The red "Report it" pill under Milo — present only while EchoVoice reports it can't read a partner's transcripts | Only when you click it | opens your browser | `github.com/PiGON-AI/EchoVoice` — a bug report form pre-filled with the two extension versions, your editor's name, and your operating system's name, all visible and editable before you send | n/a — browser navigation; nothing is sent until you press Submit yourself |
+| The "Support Milo" doors — the one-time invitation's three buttons (review, follow, coffee) and the menu group of the same name | Only when you click one | opens your browser | the Marketplace listing, Instagram (`@codepeeps`), or Buy Me a Coffee | n/a — browser navigation |
+| **The dance-floor archive** — the previous release's retired music (4 tracks, ~8 MB) | Only when you choose "Get the dance-floor archive" from the menu, after a dialog that names the download and its size. Never automatically; never on install or update | ~8 MB, once | `github.com/PiGON-AI/Echotools-Runtime` (immutable release `avatar-archive-v1` — assets are never overwritten; a new archive gets a new release) | The pack's manifest has its own SHA-256 pinned in the extension source; every file's SHA-256 and byte count are pinned in that manifest; each file streams under a hard size cap to a `.part` name and is renamed into place only after its hash matches. Any mismatch is discarded. "Remove the archive" deletes it in one command |
 
-That is the whole table on purpose. Everything else Milo is — music, sound
-effects, films, recorded lines, wake-word models — ships inside the
-extension package. The audio he animates arrives from **EchoVoice on your
+That is the whole table on purpose. Everything else Milo is — this release's
+music, sound effects, films, recorded lines, wake-word models — ships inside
+the extension package. The audio he animates arrives from **EchoVoice on your
 machine**; EchoAvatar itself reads no transcripts and contacts no service.
 His panel's security policy doesn't even allow the webview to fetch beyond
 the editor's own resource origin — the being cannot phone anywhere.
@@ -35,6 +37,7 @@ never uploaded; no code path exists that could.
 | what | where | remove it |
 |---|---|---|
 | Provisioned FFmpeg engine (+ its license text) | the editor's global storage folder for this extension (`ear-runtime/`) | turn the ear off and delete the folder, or delete it after uninstall via your OS file manager |
+| The dance-floor archive (4 retired tracks + their manifest), **only if you asked for it** | global storage (`packs/dance-floor-1-archive/`) | "Remove the dance-floor archive" in Milo's menu — one command, everything gone |
 | Ear clips — short 3-second WAVs of the moments Milo hears (or almost hears) his name, **only if you opt in** (its own consent moment, off by default) | global storage (`ear-clips/`), capped at 400 clips ≈ 38 MB, oldest deleted first | "EchoAvatar: Delete Stored Ear Clips" — one command, everything gone |
 | Calibrated command thresholds (numbers only, offered by Milo, applied by you) | your **user** `settings.json` (`echoavatar.commandThresholds`) | edit or empty the setting, or "EchoAvatar: Reset Milo's Ears to Standard" |
 | Consent flags and small memories (introduced himself, ear consent given) | the editor's extension state store | uninstalling the extension; the flags carry no content |

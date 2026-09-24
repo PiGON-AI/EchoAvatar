@@ -1,5 +1,71 @@
 # Changelog
 
+## 1.0.0
+
+**Why 1.0.** Milo speaks, sees when a partner's transcripts stop making sense
+and says so, works without a mouse, respects your reduced-motion setting,
+tells you exactly what he costs and what leaves your machine (nothing, unless
+you ask), and ships with a watchdog, a report door, and a verified archive.
+The preview label comes off. Everything below is what changed since 0.19.4.
+
+- **Dance Floor 2.0 — every track has its own choreography.** Milo no longer
+  dances to a generic beat. Each of the robot's five tracks has a performance
+  Myriam authored by hand — nods, jumps that land, spins, sways, shivers on
+  the busy parts, faces that change with the music, and words that appear on
+  his body at the right moment. The swarm's five chill tracks flow through
+  their own shape cycles. Everything follows the actual song position, so
+  pause, resume and replay stay in step, and every cue ends when the music
+  does. A real alert from the watchdog still wins over any dance, your
+  reduced-motion setting still stills him, and dancing can be switched off
+  entirely. Your own music and the archive's tracks keep the classic
+  beat-reactive dance.
+- **A new dance floor.** Two new dance tracks — a second original by
+  Austin Green (Lord Austin) and a summer track — and two new chill tracks,
+  alongside three familiar ones per body. The tracks they replace haven't
+  gone anywhere: they're in the **dance-floor archive**, one click away in
+  Milo's menu (*Get the dance-floor archive*, ~12 MB, fetched from our GitHub
+  only when you ask, every file checked against a pinned fingerprint before it
+  can play, removable in one command). The first time you dance after
+  updating, Milo offers it once — and never nags.
+- **Milo dances to your music.** *My music…* in his menu opens a folder
+  picker; your mp3, wav, ogg and m4a files join his playlist (`dance` and
+  `chill` subfolders sort the moods, a flat folder feeds both). They never
+  leave your machine.
+- **The swarm's room can be dimmed** — *Room brightness (swarm)…* in the menu,
+  five steps from "as filmed" to "almost night" — so a being made of light
+  pops against the film without losing its colour. The robot's room is never
+  dimmed.
+- **The screensaver's speaker button is ours now** — a drawn line icon in the
+  house cyan instead of an emoji.
+- **Milo actually sleeps under the screensaver.** He used to keep animating at
+  full speed underneath the film where nobody could see him; now he stops
+  rendering the moment the film has faded in and wakes the instant the shift
+  ends. Quieter fans, longer battery, nothing visible changed.
+- **Wispie takes a shift.** Wispie, the air spirit, joins Xie on the night
+  shift — they take turns, one per shift, remembered across sessions. Xie's
+  film rides in the archive; Wispie's ships with Milo, looping without a
+  seam. Both carry a small `@pokievaults` mark — that's where the characters
+  come from.
+- **The room dims the longer he sleeps.** A shift arrives as filmed, and if
+  nobody comes back it settles over the first five minutes into a calmer,
+  softly vignetted look — the way a room does when everyone's gone. It's one
+  still layer the compositor fades; no per-frame work, so it costs nothing.
+  The moment you're back, the next shift starts bright again.
+- **New 3D rooms for both bodies.** The robot floats in a wormhole — a lit grid
+  floor, debris drifting past, light bending around the dark — and the swarm
+  drifts in a deeper, quieter whirl of its own. Both were made for this
+  release, looped seamlessly so the room never jumps, and encoded down to
+  1.5 MB each so the package didn't grow. They're built to enhance, not to
+  distract: the robot's room is bright behind a glossy body; the swarm's is
+  dim by design so a being made of light stays the brightest thing in the
+  frame — and *Room brightness (swarm)…* in the menu lets you tune exactly
+  how dark, lifting the swarm's glow as the room goes down.
+- **Support Milo, three doors.** The one-time invitation after 25 replies now
+  offers ⭐ Review · 💙 Follow · ☕ Coffee, and the menu has a *Support Milo…*
+  group with the same three, visible whenever you want them and never pushed.
+- **The package holds its weight:** new music, a new screensaver and new rooms
+  in, and the extension is the same size as last release.
+
 ## 0.19.4
 
 - **Milo tells you when he can't hear a partner — and what to do about it.**

@@ -1,11 +1,14 @@
 # Credits
 
-EchoAvatar ships with bundled audio. Nothing is streamed, generated at runtime,
-or downloaded — every sound below lives inside the extension package.
+EchoAvatar ships with bundled audio. Every sound below lives inside the
+extension package; nothing is streamed or generated at runtime. The one thing
+that can be downloaded is the **dance-floor archive** — the previous release's
+retired tracks — and only when you ask for it from the menu (see
+DISCLOSURES.md). Its credits are listed here too.
 
-## Music — Milo's dance floor
+## Music — Milo's dance floor (this release)
 
-`media/dance/dance-1.mp3` … `dance-4.mp3`
+`media/dance/dance-2.mp3`, `dance-4.mp3`, `dance-summer.mp3`
 
 Royalty-free music from **[Pixabay](https://pixabay.com/music/)**, used under the
 [Pixabay Content License](https://pixabay.com/service/license-summary/), which
@@ -13,9 +16,9 @@ permits use and redistribution as part of a larger work. The music is not
 offered here for standalone download or resale — it plays only inside Milo's
 panel when you ask him to dance.
 
-## Music — Milo's chill room
+## Music — Milo's chill room (this release)
 
-`media/relax/relax-1.mp3` … `relax-4.mp3`
+`media/relax/relax-1.mp3`, `relax-2.mp3`, `relax-flow.mp3`, `relax-low_beats.mp3`
 
 Royalty-free classical/ambient tracks from
 **[Pixabay](https://pixabay.com/music/)**, used under the same
@@ -24,11 +27,11 @@ dance tracks. They play only inside Milo's panel in the swarm's Chill mode.
 
 ## Original music — Austin Green (Lord Austin)
 
-`media/dance/dance-5.mp3` and `media/relax/relax-5.mp3`
+`media/dance/dance-5.mp3`, `media/dance/dance-austin.mp3` and `media/relax/relax-5.mp3`
 
-Two original electronic tracks composed for Milo by **Austin Green, AKA
+Three original electronic tracks composed for Milo by **Austin Green, AKA
 Lord Austin** — the first outside artist in Milo's world — and included with
-his permission. One drives the robot's dance floor, one drifts through the
+his permission. Two drive the robot's dance floor, one drifts through the
 swarm's chill room. Hear more of his work:
 
 - SoundCloud: <https://soundcloud.com/austin-green-127452836>
@@ -51,13 +54,35 @@ cleared throat), rendered with ElevenLabs and owned by PiGON AI LLC.
 `media/ambient/lobby.mp3`, `media/ambient/halls.mp3` — PiGON's own soundscapes,
 the same ones you hear on pigon.ai. Owned by PiGON AI LLC.
 
-## The night shift's soundtrack
+## The night shift — Xie and Wispie
+
+`media/screensaver/xie-space.mp4`, `media/screensaver/wispie-air.mp4` — the two
+screensaver films. **Xie**, the galaxy chameleon, and **Wispie**, the air
+spirit, are characters from **PokieVault** ([@pokievaults on
+Instagram](https://www.instagram.com/pokievaults/)); the films were made by
+PiGON AI from PokieVault's own artwork and carry a small `@pokievaults` mark.
+They take turns, one per shift.
 
 `media/screensaver/xie-space.mp3` — Xie's drift music: a royalty-free track
 from **[Pixabay](https://pixabay.com/music/)**, used under the same
-[Pixabay Content License](https://pixabay.com/service/license-summary/) as
-the dance tracks. It plays only while Xie holds the screensaver shift, and
-the Mute pill silences it like everything else.
+[Pixabay Content License](https://pixabay.com/service/license-summary/) as the
+dance tracks. `media/screensaver/wispie-air.mp3` — Wispie's soundtrack was
+made with her film and is PiGON AI's own. Each plays only while its film
+holds the shift, and the Mute pill silences it like everything else.
+
+`media/background/space.mp4`, `media/background/space-particles.mp4` — the
+two rooms (the robot's and the swarm's): made by PiGON AI. Owned by
+PiGON AI LLC.
+
+## The dance-floor archive (downloaded only if you ask)
+
+The previous release's retired tracks — `dance-1.mp3`, `dance-3.mp3`,
+`relax-3.mp3`, `relax-4.mp3` — royalty-free music from
+**[Pixabay](https://pixabay.com/music/)** under the Pixabay Content License,
+published on `github.com/PiGON-AI/Echotools-Runtime` with a manifest that
+carries every file's checksum and these same credits. Fetched only from the
+menu's "Get the dance-floor archive", verified before use, removable in one
+command.
 
 ## Original recordings (PiGON AI LLC)
 
