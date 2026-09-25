@@ -55,7 +55,7 @@ The preview label comes off. Everything below is what changed since 0.19.4.
   floor, debris drifting past, light bending around the dark — and the swarm
   drifts in a deeper, quieter whirl of its own. Both were made for this
   release, looped seamlessly so the room never jumps, and encoded down to
-  1.5 MB each so the package didn't grow. They're built to enhance, not to
+  1.5 MB each so they cost almost nothing. They're built to enhance, not to
   distract: the robot's room is bright behind a glossy body; the swarm's is
   dim by design so a being made of light stays the brightest thing in the
   frame — and *Room brightness (swarm)…* in the menu lets you tune exactly
@@ -64,7 +64,7 @@ The preview label comes off. Everything below is what changed since 0.19.4.
   offers ⭐ Review · 💙 Follow · ☕ Coffee, and the menu has a *Support Milo…*
   group with the same three, visible whenever you want them and never pushed.
 - **The package holds its weight:** new music, a new screensaver and new rooms
-  in, and the extension is the same size as last release.
+  in, and the extension grew by about 3 MB — 45 to 48 MB to download.
 
 ## 0.19.4
 
