@@ -83,8 +83,12 @@ not derived from openWakeWord's pre-trained models.
 - Music under `media/dance/` and `media/relax/` — royalty-free tracks from
   [Pixabay Music](https://pixabay.com/music/) — except the two Austin
   Green originals listed below.
-- The screensaver's drift soundtrack `media/screensaver/xie-space.mp3` —
-  a royalty-free track from [Pixabay Music](https://pixabay.com/music/).
+- The dance-floor archive (downloaded only when you ask, from
+  `github.com/PiGON-AI/Echotools-Runtime`): the retired tracks `dance-1.mp3`,
+  `dance-3.mp3`, `relax-3.mp3`, `relax-4.mp3` and Xie's drift soundtrack
+  `xie-space.mp3` — royalty-free tracks from
+  [Pixabay Music](https://pixabay.com/music/). Wispie's soundtrack, which
+  ships in the package, is PiGON's own and is not third-party.
 - Reaction sound effects under `media/reactions/` (excluding
   `media/reactions/MILO/`) — royalty-free effects from
   [Pixabay Sound Effects](https://pixabay.com/sound-effects/).
