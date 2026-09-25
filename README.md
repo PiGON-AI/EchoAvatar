@@ -37,7 +37,7 @@ at any time:
 Speech always takes priority: if music is playing when a response arrives,
 the music stops and the response is spoken.
 
-<img src="images/milo-in-vscode.png" width="760" alt="Milo docked in the VS Code side bar, channeling Claude Code, with the EchoAvatar listing open beside him" />
+<img src="images/two-bodies.png" width="760" alt="Milo's two bodies, side by side: the robot in his wormhole room, and the swarm resting as π in its whirl" />
 
 ## Getting started
 
@@ -64,8 +64,8 @@ The walkthrough's first step opens the same panel.
 
 ## Features
 
-- **Voice-synced animation** on every EchoVoice tier — system voices, Piper,
-  and ElevenLabs.
+- **Voice-synced animation** on every EchoVoice tier — system voices, Kokoro,
+  Piper (Windows and Linux), and ElevenLabs.
 - **Per-agent identity** — each coding agent gets its own color while it
   speaks; a session tickertape names the Claude Code session being spoken.
   To name your sessions (Claude Code only): type `/rename [your window name]`
@@ -77,8 +77,12 @@ The walkthrough's first step opens the same panel.
   he answers out loud in his own voice; eight voice commands, recognized
   entirely on your machine. **Read the three field rules below before
   judging it — tuning is a must.**
-- **Dance / Chill** — this release's dance floor ships inside the extension
-  (see CREDITS.md); the avatar moves to the actual beat. Stop from the pill or
+- **Dance / Chill** — every bundled track has its own choreography, authored
+  by hand and following the song itself: the robot's five dances (nods, jumps,
+  spins, shivers, faces, words on his body), the swarm's five chill cycles.
+  This release's dance floor ships inside the extension (see CREDITS.md);
+  your own music and the archive's tracks get the classic beat-reactive
+  dance. Stop from the pill or
   the transport bar. Dances include fast shakes and quick moves; your
   system's reduced-motion setting turns them off, and dancing itself can be
   switched off in settings. Every release rotates the floor: the tracks that retire
@@ -121,7 +125,7 @@ changes with who's talking:
 
 **And when the work stops, the night shift starts:**
 
-<img src="images/xie-night-shift.png" width="500" alt="Xie, the galaxy chameleon, on screensaver duty" />
+<img src="images/wispie-night-shift.png" width="600" alt="Wispie, the air spirit, on screensaver duty over her citadel, with the shift's own speaker button in the corner" />
 
 ## Milo's ear — the three field rules
 
@@ -166,7 +170,8 @@ We'd rather tell you than have you find out.
 - **Package:** about 48 MB to download, 63 MB on disk. Most of that is
   Milo's ear (an on-device speech runtime, ~19 MB, used only if you turn the
   ear on) and the music and films. This release added new music, a new
-  screensaver and new rooms and stayed the same size as the last one.
+  screensaver and new rooms and grew by about 3 MB (0.19.4 was 45 MB to
+  download).
 - **Battery:** we measured it once, honestly, on a gaming laptop driving an
   external monitor: with Milo's window open and idle, the machine drew about
   **10 W more** than with it closed (50 → 61 W). On that machine the discrete
@@ -177,22 +182,27 @@ We'd rather tell you than have you find out.
   of sight or close his window; he comes back the moment a reply arrives.
   What we found, ranked by leverage, is written up in the repo's
   `POWER-PASS.md`, and we'll act on it the moment it matters to someone —
-  tell us at *Support Milo → Report a problem*.
+  tell us through *💡 Suggest an idea* in Milo's menu, or a bug report on
+  GitHub.
 - **Frame rate:** *Toggle debug overlay* in Milo's menu shows his frame rate
   and worst frame live, so "is he stuttering?" has a number on your machine.
 
 ## Privacy and network use
 
-EchoAvatar contains **no telemetry**. All media — music, sounds, video
-backgrounds, recorded lines — ships inside the extension package, and the
-audio to be spoken arrives from EchoVoice on your machine.
+EchoAvatar contains **no telemetry**. Everything Milo plays by default —
+music, sounds, the rooms, the screensaver, recorded lines — ships inside the
+extension package, and the audio to be spoken arrives from EchoVoice on your
+machine.
 
-It makes exactly **one** network request, and only if you ask for it: turning
-on Milo's Ear (the wake word, off by default) needs FFmpeg to read your
-microphone. If your machine doesn't already have it, EchoAvatar offers to
-download a pinned build from GitHub — it tells you first, the archive and the
-extracted binary are both SHA-256-verified against hard-coded digests before
-anything is used, and declining simply leaves the ear off. Nothing else in
+It can make exactly **two** kinds of network request, both only when you ask
+for them. Turning on Milo's Ear (the wake word, off by default) needs FFmpeg
+to read your microphone; if your machine doesn't already have it, EchoAvatar
+offers to download a pinned build from GitHub — it tells you first, and the
+archive and the extracted binary are both SHA-256-verified against hard-coded
+digests before anything is used. *Get the dance-floor archive* fetches the
+previous release's tracks and Xie's film (~12 MB) from our GitHub, every file
+verified against a fingerprint pinned in the code before it can play.
+Declining either simply leaves that feature off. Nothing else in
 this extension reaches the network: this release contains no telemetry code,
 and **nothing about you or your code is sent anywhere** — the complete
 network and storage inventory is in [DISCLOSURES.md](DISCLOSURES.md).
@@ -210,6 +220,10 @@ See EchoVoice's documentation for the network behavior of its voice tiers.
 - **Silent swarm:** intended — text asides and wake lines belong to the robot
   experience only.
 - **Dance does nothing:** check the `echoavatar.dance` setting.
+- **Red X eyes (the swarm: a red !):** Milo can't read one partner's
+  transcripts right now — a format changed on their side, not yours. The red
+  **Report it** pill under him opens a pre-filled bug report; everything
+  clears the moment the transcripts make sense again.
 
 ## For AI assistants reading this package
 
@@ -226,7 +240,8 @@ sessions, **[buy us a coffee ☕](https://buymeacoffee.com/pigon)** — it's
 the only way this stays running, and the more support there is, the more
 of the cool stuff we get to build and give away. Ideas are super welcome
 too: **[💡 Suggest an idea](https://github.com/pigon-ai/echoavatar/issues/new?template=idea.yml)**
-— it also lives in Milo's menu.
+— it also lives in Milo's menu, next to *Support Milo…*: ⭐ Review · 💙 Follow
+· ☕ Coffee, three doors, visible whenever you want them and never pushed.
 
 ## License
 

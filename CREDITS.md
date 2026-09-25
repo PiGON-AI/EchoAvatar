@@ -56,19 +56,17 @@ the same ones you hear on pigon.ai. Owned by PiGON AI LLC.
 
 ## The night shift — Xie and Wispie
 
-`media/screensaver/xie-space.mp4`, `media/screensaver/wispie-air.mp4` — the two
-screensaver films. **Xie**, the galaxy chameleon, and **Wispie**, the air
-spirit, are characters from **PokieVault** ([@pokievaults on
-Instagram](https://www.instagram.com/pokievaults/)); the films were made by
+`media/screensaver/wispie-air.mp4` — Wispie's screensaver film, the one that
+ships with Milo. **Wispie**, the air spirit, and **Xie**, the galaxy
+chameleon, are characters from **PokieVault** ([@pokievaults on
+Instagram](https://www.instagram.com/pokievaults/)); both films were made by
 PiGON AI from PokieVault's own artwork and carry a small `@pokievaults` mark.
-They take turns, one per shift.
+Xie's film rides in the dance-floor archive (below); when both are present
+they take turns, one per shift.
 
-`media/screensaver/xie-space.mp3` — Xie's drift music: a royalty-free track
-from **[Pixabay](https://pixabay.com/music/)**, used under the same
-[Pixabay Content License](https://pixabay.com/service/license-summary/) as the
-dance tracks. `media/screensaver/wispie-air.mp3` — Wispie's soundtrack was
-made with her film and is PiGON AI's own. Each plays only while its film
-holds the shift, and the Mute pill silences it like everything else.
+`media/screensaver/wispie-air.mp3` — Wispie's soundtrack was made with her
+film and is PiGON AI's own. It plays only while her film holds the shift, and
+the Mute pill silences it like everything else.
 
 `media/background/space.mp4`, `media/background/space-particles.mp4` — the
 two rooms (the robot's and the swarm's): made by PiGON AI. Owned by
@@ -78,11 +76,13 @@ PiGON AI LLC.
 
 The previous release's retired tracks — `dance-1.mp3`, `dance-3.mp3`,
 `relax-3.mp3`, `relax-4.mp3` — royalty-free music from
-**[Pixabay](https://pixabay.com/music/)** under the Pixabay Content License,
-published on `github.com/PiGON-AI/Echotools-Runtime` with a manifest that
-carries every file's checksum and these same credits. Fetched only from the
-menu's "Get the dance-floor archive", verified before use, removable in one
-command.
+**[Pixabay](https://pixabay.com/music/)** under the Pixabay Content License;
+and Xie's night shift — `xie-space.mp4`, her film (PiGON AI, from PokieVault's
+artwork, `@pokievaults` mark), and `xie-space.mp3`, her drift music, a
+royalty-free track from Pixabay under the same license. Published on
+`github.com/PiGON-AI/Echotools-Runtime` with a manifest that carries every
+file's checksum and these same credits. Fetched only from the menu's "Get the
+dance-floor archive", verified before use, removable in one command.
 
 ## Original recordings (PiGON AI LLC)
 
@@ -97,6 +97,8 @@ owned by PiGON AI LLC:
 - `media/intro/hello.mp3`, `media/intro/hello-particles.mp3` — Milo's
   introductions (robot and swarm).
 - `media/chatter/*.mp3` — the robot's wake lines.
+- `media/milo/*.mp3` — the watchdog's spoken alerts ("I can't read … right
+  now") and the all-clear, one bank per body.
 - `media/breaks/*.mp3` — the break check-ins (90 minutes / 3 hours / 5 hours).
 - `media/scrolling/audio-1.mp3` — the scroll-tease line.
 - `media/reactions/MILO/*.mp3` — Milo's vocal reactions (see above).

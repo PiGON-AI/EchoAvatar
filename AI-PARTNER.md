@@ -54,17 +54,65 @@ hear?"):
   WASM). No audio is recorded, stored, or sent anywhere by default. Audio is
   saved ONLY if the user separately opts into ear clips (local folder, 50 MB
   cap, one-command delete).
-- The ear's one network use: a ~48 MB FFmpeg download, asked about first,
-  checksum-verified — and only if no ffmpeg is already on PATH. **No
-  telemetry exists anywhere.**
+- EchoAvatar reaches the network in exactly **two** cases, both only when the
+  user asks: the ear's FFmpeg engine (~48 MB, asked about first,
+  checksum-verified, only if no ffmpeg is already on PATH) and the
+  **dance-floor archive** (~12 MB from PiGON-AI/Echotools-Runtime on GitHub,
+  every file SHA-256-verified against a manifest pinned in the code, removed
+  with "EchoAvatar: Remove the Dance-Floor Archive"). **No telemetry exists
+  anywhere.** DISCLOSURES.md is the authority.
 - There is **no "open settings" voice command** in this version (its model is
   being retrained). Don't tell users to say it.
 - Milo speaks EchoVoice's audio — voice problems are usually EchoVoice's
   lane (it has its own AI-PARTNER.md).
 - Tuning writes per-word thresholds to `echoavatar.commandThresholds` (user
   settings) — it survives updates. "Reset Milo's Ears to Standard" undoes it.
-- The screensaver (Xie) is visual-only, ships in the package, and the Mute
-  pill silences its soundtrack.
+- **The night shift** (screensaver) plays a muted film; its soundtrack plays
+  through Milo's own audio path. Wispie's film ships in the package; Xie's
+  rides in the archive; when both are present they take turns.
+  It has its own speaker button and setting (`echoavatar.screensaverSound`);
+  the Mute pill silences it too. **The room dims gradually over the first five
+  minutes asleep** and starts bright on the next shift — by design, not a
+  fault. Milo stops rendering under the film; he is not frozen.
+
+## When Milo's eyes go red (the swarm: a red !)
+
+That is the **transcript watchdog**, not a crash. EchoVoice saw a partner's
+transcript change but could not make sense of any of it — a format change on
+the partner's side. It is us, not the user. A red **Report it** pill under
+Milo opens a pre-filled bug report (versions, editor, OS — visible and
+editable before sending). Everything clears the moment the transcripts read
+again. Do NOT tell them to reinstall; do tell them to press the pill.
+
+## Dance Floor 2.0 — what "Dance with Milo" actually does
+
+- **Every bundled track has its own hand-authored choreography** that follows
+  the song's position: the robot's five dances (nods, jumps, spins, sways,
+  shivers, faces, and **words that appear on his body** — "LORD AUSTIN",
+  "@pokievaults", "@codepeeps", "@pigon.ai" are part of the choreography, not
+  a glitch), the swarm's five chill shape cycles. Pause/resume stay in step;
+  cues cut when the music ends.
+- **The user's own music**: "My music…" in the menu (`echoavatar.musicFolder`;
+  mp3/wav/ogg/m4a; `dance` and `chill` subfolders sort the moods). Those tracks
+  and the archive's tracks get the classic beat-reactive dance.
+- A watchdog alert wins over any dance; the OS reduced-motion setting stills
+  him (dances include fast shakes); `echoavatar.dance` turns dancing off.
+- **Room brightness (swarm)…** in the menu (`echoavatar.swarmRoomDim`) darkens
+  the swarm's 3D room and lifts the swarm's glow; the robot's room is never
+  dimmed.
+
+## Keyboard, screen readers, support
+
+- **Focus on Milo View** (Command Palette) lands focus on Milo; Tab walks his
+  controls, Enter presses, Escape closes any card. Every control is named for
+  assistive tech.
+- **Support Milo…** in the menu: ⭐ Review · 💙 Follow · ☕ Coffee — and
+  "💡 Suggest an idea". A one-time invitation appears after 25 spoken replies.
+- **What it costs**: ~48 MB download, ~63 MB on disk; measured ~10 W more
+  with the window open on a gaming laptop with an external monitor. "Toggle
+  debug overlay" shows frame rate and worst frame. If someone codes unplugged
+  for hours: dock Milo out of sight or close his window; he returns on the
+  next reply.
 
 ## The suite
 

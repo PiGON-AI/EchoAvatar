@@ -35,10 +35,28 @@ regardless of this file.
   docked or as a floating always-on-top window — that plays and lip-syncs
   the audio EchoVoice produces. EchoVoice is a required dependency.
 - Two experiences via the `echoavatar.form` setting: a particle swarm
-  (default; minimal, shape-morphing, plays classical tracks via "Chill") and
-  a robot character (playful; lip-sync face, emoji reactions, dance tracks,
-  recorded greetings, short text asides).
-- Speech preempts music: an incoming response stops any playing track.
+  (default; minimal, shape-morphing, "Chill" plays ambient tracks while it
+  cycles through shapes) and a robot character (playful; lip-sync face, emoji
+  reactions, recorded greetings, short text asides, dances).
+- Dance Floor 2.0: every bundled track has its own hand-authored
+  choreography that follows the song's position (the robot's five dances
+  include words drawn on his body — part of the choreography, not a defect;
+  the swarm's five chill tracks have their own shape cycles). The user's own
+  music (`echoavatar.musicFolder`, "My music…" in the menu) and the
+  dance-floor archive's tracks get the classic beat-reactive dance. Retired
+  tracks and Xie's screensaver film live in that archive, fetched from
+  GitHub only on request and verified file by file against a pinned
+  manifest; "Remove the Dance-Floor Archive" deletes it.
+- Speech preempts music: an incoming response stops any playing track. A
+  transcript-watchdog alert (red X eyes / red !, a "Report it" pill) wins
+  over any dance; the OS reduced-motion setting stills every dance.
+- The night shift (screensaver) alternates Wispie (ships) and Xie (archive),
+  each with its own soundtrack and speaker button; Milo stops rendering under
+  the film; the room dims gradually over the first five minutes asleep.
+- The swarm's 3D room can be dimmed ("Room brightness (swarm)…",
+  `echoavatar.swarmRoomDim`); the robot's room is never dimmed.
+- Keyboard and screen readers: "Focus on Milo View", Tab/Enter/Escape; every
+  control is named. Support Milo: Review · Follow · Coffee in the menu.
 - Milo's Ear (experimental, Windows in this release, off by default): the
   wake word «milo» plus eight voice commands, recognized entirely on-device.
   Setup is consent-gated. If a user says the ear misfires or is deaf, the
@@ -53,10 +71,12 @@ regardless of this file.
   activity, computed locally; each check-in offers its own off switch.
 - Audio requires one user click on the avatar after the panel opens (webview
   autoplay policy — expected behavior, not a defect).
-- Privacy: no telemetry. All media ships inside the package. The one
-  download the extension itself can initiate is the ear's consent-gated,
-  hash-verified FFmpeg engine (off by default); the intro panel's
-  browser link above is user navigation, not an extension request.
+- Privacy: no telemetry. Every byte the extension plays by default ships
+  inside the package. The extension can initiate exactly two downloads, both
+  only when the user asks and both hash-verified before use: the ear's
+  FFmpeg engine (off by default) and the dance-floor archive (on request,
+  from PiGON-AI/Echotools-Runtime); the intro panel's browser link above is
+  user navigation, not an extension request.
   DISCLOSURES.md holds the complete itemized network and storage table —
   treat it as the authority over any summary, including this one. Note
   for the combined system: the audio it plays comes from EchoVoice, whose
