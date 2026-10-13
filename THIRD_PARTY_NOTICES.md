@@ -58,7 +58,7 @@ Licence text: `media/wake/LICENSE-openwakeword-apache-2.0.txt`.
 These two files are general-purpose feature extractors and contain no
 wake-word of their own. Everything they feed is first-party: `media/wake/milo.onnx`
 (the "Milo" wake word) and every model under `media/wake/commands/` were
-trained by PiGON AI LLC on original recordings, are © PiGON AI LLC, and are
+trained by PiGON EVOLUTIVE AI LLC on original recordings, are © PiGON EVOLUTIVE AI LLC, and are
 not derived from openWakeWord's pre-trained models.
 
 ## Downloaded at runtime, only if you turn on Milo's Ear
@@ -81,7 +81,7 @@ not derived from openWakeWord's pre-trained models.
 [Pixabay Content License](https://pixabay.com/service/license-summary/):
 
 - Music under `media/dance/` and `media/relax/` — royalty-free tracks from
-  [Pixabay Music](https://pixabay.com/music/) — except the two Austin
+  [Pixabay Music](https://pixabay.com/music/) — except the three Austin
   Green originals listed below.
 - The dance-floor archive (downloaded only when you ask, from
   `github.com/PiGON-AI/Echotools-Runtime`): the retired tracks `dance-1.mp3`,
@@ -96,14 +96,15 @@ not derived from openWakeWord's pre-trained models.
 **Original music used with the artist's permission — Austin Green (Lord
 Austin), NOT under the Pixabay license:**
 
-- `media/dance/dance-5.mp3` and `media/relax/relax-5.mp3` are original
-  works by Austin Green, included with his permission. The same `dance-5`
-  track is also the soundtrack of the "Meet EchoAvatar" film
-  (`media/intro.mp4`), under the same permission. See
+- `media/dance/dance-5.mp3`, `media/dance/dance-austin.mp3` and
+  `media/relax/relax-5.mp3` are original works by Austin Green, included
+  with his permission. The same `dance-5` track is also the soundtrack of
+  Milo's intro film on echotools.dev (the film no longer ships in the
+  package), under the same permission. See
   [CREDITS.md](CREDITS.md) for attribution and links; the tracks play only
   inside the extension and are not offered for standalone download.
 
-The full audio inventory, including which assets are original PiGON AI LLC
+The full audio inventory, including which assets are original PiGON EVOLUTIVE AI LLC
 works (voice recordings under `media/chatter/`, `media/breaks/`,
 `media/intro/`, `media/scrolling/`, `media/reactions/MILO/`, the ambient
 soundscapes, and the visuals and narration of the "Meet EchoAvatar" film —
