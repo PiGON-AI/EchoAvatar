@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.1.1, fixes
+
+- **Milo no longer dances on his own.** A single short sound in a quiet room
+  (a click, a cough) could start "Milo, dance" when you hadn't said a word.
+  Now the phrase has to be heard for a moment, not a blip; when you say it,
+  he still dances right away.
+- **He moves while EchoVoice speaks for him.** Until you click Milo once after
+  VS Code opens, your editor won't let his window make sound, so EchoVoice
+  plays the reply itself. He used to stand still through it; now he moves as
+  if speaking.
+- **No more lost or doubled replies.** A reply could be counted as spoken
+  without playing, and one that stopped reporting its end held EchoVoice's
+  queue for minutes. Milo now settles each reply exactly once, on time.
+- **His listing describes EchoMemory as it ships:** it no longer promised
+  things the store version of EchoMemory doesn't do.
+
 ## 1.1.0 — Milo talks back
 
 **Why 1.1.** Until now Milo listened for a handful of words and danced. Now
