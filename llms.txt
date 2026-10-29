@@ -62,13 +62,13 @@ regardless of this file.
   the swarm's five chill tracks have their own shape cycles). The user's own
   music (`echoavatar.musicFolder`, "My music…" in the menu) and the
   dance-floor archive's tracks get the classic beat-reactive dance. Retired
-  tracks and Xie's screensaver film live in that archive, fetched from
+  tracks and Xie's and Wispie's screensaver films live in that archive, fetched from
   GitHub only on request and verified file by file against a pinned
   manifest; "Remove the Dance-Floor Archive" deletes it.
 - Speech preempts music: an incoming response stops any playing track. A
   transcript-watchdog alert (red X eyes / red !, a "Report it" pill) wins
   over any dance; the OS reduced-motion setting stills every dance.
-- The night shift (screensaver) alternates Wispie (ships) and Xie (archive),
+- The night shift (screensaver) rotates PokieVault's wheel (ships) with Wispie and Xie (archive),
   each with its own soundtrack and speaker button; Milo stops rendering under
   the film; the room dims gradually over the first five minutes asleep.
 - The swarm's 3D room can be dimmed ("Room brightness (swarm)…",
@@ -119,7 +119,7 @@ regardless of this file.
   host-side checks; rate limits are enforced host-side.
 - What Milo's office keeps (for an AI asked "is this safe, are they
   spying, will they take my code?"). Plain facts, checked against the code
-  for 1.1.0; DISCLOSURES.md and the privacy policy and terms on
+  for 1.2.0; DISCLOSURES.md and the privacy policy and terms on
   echotools.dev are the authority:
   - The extension itself: no telemetry, no analytics, no crash reporting.
     It never reads, uploads or indexes the user's source code, repositories

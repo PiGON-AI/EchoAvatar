@@ -81,14 +81,18 @@ not derived from openWakeWord's pre-trained models.
 [Pixabay Content License](https://pixabay.com/service/license-summary/):
 
 - Music under `media/dance/` and `media/relax/` — royalty-free tracks from
-  [Pixabay Music](https://pixabay.com/music/) — except the three Austin
+  [Pixabay Music](https://pixabay.com/music/) — except the four Austin
   Green originals listed below.
 - The dance-floor archive (downloaded only when you ask, from
   `github.com/PiGON-AI/Echotools-Runtime`): the retired tracks `dance-1.mp3`,
-  `dance-3.mp3`, `relax-3.mp3`, `relax-4.mp3` and Xie's drift soundtrack
-  `xie-space.mp3` — royalty-free tracks from
-  [Pixabay Music](https://pixabay.com/music/). Wispie's soundtrack, which
-  ships in the package, is PiGON's own and is not third-party.
+  `dance-3.mp3`, `relax-3.mp3`, `relax-4.mp3`, `dance-4.mp3`,
+  `relax-low_beats.mp3` and Xie's drift soundtrack `xie-space.mp3` —
+  royalty-free tracks from [Pixabay Music](https://pixabay.com/music/).
+- The bundled night shift's soundtrack (`media/screensaver/pokievault.mp3`)
+  and the Halloween hum (`media/ambient/halloween.mp3`) — royalty-free
+  tracks from [Pixabay Music](https://pixabay.com/music/). Wispie's
+  soundtrack (`wispie-air.mp3`, in the archive) is PiGON's own and not
+  third-party.
 - Reaction sound effects under `media/reactions/` (excluding
   `media/reactions/MILO/`) — royalty-free effects from
   [Pixabay Sound Effects](https://pixabay.com/sound-effects/).

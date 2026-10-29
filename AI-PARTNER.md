@@ -136,8 +136,8 @@ after tuning they fire instantly.** Never let a user judge the ear untuned.
 - **Hide** (a pill, only when he floats) hides him until **Open Milo** (the
   status-bar menu), the next reply, or his side-bar icon brings him back.
 - **The night shift** (screensaver) plays a muted film; its soundtrack plays
-  through Milo's own audio path. Wispie's film ships in the package; Xie's
-  rides in the archive; when both are present they take turns.
+  through Milo's own audio path. PokieVault's wheel ships in the package;
+  Wispie's and Xie's films ride in the archive; when present they take turns.
   It has its own speaker button and setting (`echoavatar.screensaverSound`);
   the Mute pill silences it too. **The room dims gradually over the first five
   minutes asleep** and starts bright on the next shift — by design, not a
