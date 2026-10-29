@@ -1,5 +1,52 @@
 # Changelog
 
+## 1.2.0, Halloween
+
+- **Milo is dressing up for Halloween.** Three costumes for the robot: a
+  witch's hat, a pumpkin whose stripes glow when he talks, and a ghost sheet
+  with two holes for his eyes. The first time his window opens in the season,
+  a card asks whether to start him as a Witch, a Pumpkin or a Ghost; nothing
+  is put on without your yes. The costumes and the floating things are drawn
+  in code, free, and inside the extension; nothing downloads.
+- **How do I put the hat on?** Pick a Halloween voice in EchoVoice (Witch,
+  Pumpkin or Ghost) for a partner or for Milo's own lines, and he wears that
+  costume whenever that voice speaks: each AI partner can have its own. Or
+  choose his everyday look from his menu: Menu, Music & room, Halloween,
+  "What does Milo wear?". The swarm takes a shape of its own, below.
+- **The swarm becomes the costume.** While a Halloween voice speaks, the
+  swarm takes the shape of that voice's costume: a witch's hat, a
+  jack-o'-lantern or a skull, with a mouth that moves to the voice, held
+  through the pauses between sentences. An everyday voice keeps its usual
+  forms, music never changes it, and under reduced motion the mouth moves
+  half as far. Austin's idea.
+- **His room joins in.** Ghosts, pumpkins, witches on brooms, bats, spiders on
+  threads, candy, cauldrons, coffins, gravestones, monsters and mummies can
+  float behind him, for the robot and the swarm, in every room. Tick any mix
+  and choose how many at once (Calm, Playful, Swarm or Vortex): Menu, Music &
+  room, Halloween. They hold still when your system asks for reduced motion
+  and stop when his window is hidden.
+- **How do I go back to the plain room?** Menu, Music & room, Halloween: untick
+  every set, and answer "What does Milo wear?" with Nothing. After November 2
+  the Halloween entry leaves his menu until next October, and his room is
+  plain again.
+- **Halloween music.** One Halloween dance track for the robot and two
+  Halloween chill tracks for the swarm (one by Lord Austin). In the season,
+  the first dance and the first chill of a session play them; after that
+  the usual shuffle. And a Halloween hum for his quiet moments: Menu, Music &
+  room, Ambient (or the ambient setting), with the Halloween hum first in
+  the season.
+- **A new night shift.** When Milo falls asleep, PokieVault's wheel drifts
+  over a galaxy, with its own soundtrack and the shift's own speaker button.
+  Wispie and Xie ride in the archive; with it in, the three take turns, one
+  per shift.
+- **His library grows.** Two tracks moved out of the package and into the
+  dance-floor archive, with their dances: dance-4 and relax-low_beats.
+  Wispie's night shift went with them. Get them from his menu, as before,
+  verified byte for byte; nothing is ever thrown away.
+- **"No" after "Anything else?" closes the mic.** A short "No" was sometimes
+  heard as "Now" and sent to his brain as a question, so he asked again. Now,
+  okay, I'm fine, that's enough, bye and friends all close the mic quietly.
+
 ## 1.1.1, fixes
 
 - **Milo no longer dances on his own.** A single short sound in a quiet room

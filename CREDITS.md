@@ -8,7 +8,7 @@ DISCLOSURES.md). Its credits are listed here too.
 
 ## Music — Milo's dance floor (this release)
 
-`media/dance/dance-2.mp3`, `dance-4.mp3`, `dance-summer.mp3`
+`media/dance/dance-2.mp3`, `dance-summer.mp3`, `dance-halloween.mp3`
 
 Royalty-free music from **[Pixabay](https://pixabay.com/music/)**, used under the
 [Pixabay Content License](https://pixabay.com/service/license-summary/), which
@@ -18,7 +18,7 @@ panel when you ask him to dance.
 
 ## Music — Milo's chill room (this release)
 
-`media/relax/relax-1.mp3`, `relax-2.mp3`, `relax-flow.mp3`, `relax-low_beats.mp3`
+`media/relax/relax-1.mp3`, `relax-2.mp3`, `relax-flow.mp3`, `relax-halloween.mp3`
 
 Royalty-free classical/ambient tracks from
 **[Pixabay](https://pixabay.com/music/)**, used under the same
@@ -27,12 +27,13 @@ dance tracks. They play only inside Milo's panel in the swarm's Chill mode.
 
 ## Original music — Austin Green (Lord Austin)
 
-`media/dance/dance-5.mp3`, `media/dance/dance-austin.mp3` and `media/relax/relax-5.mp3`
+`media/dance/dance-5.mp3`, `media/dance/dance-austin.mp3`,
+`media/relax/relax-5.mp3` and `media/relax/relax-halloween-la.mp3`
 
-Three original electronic tracks composed for Milo by **Austin Green, AKA
+Four original electronic tracks composed for Milo by **Austin Green, AKA
 Lord Austin** — the first outside artist in Milo's world — and included with
-his permission. Two drive the robot's dance floor, one drifts through the
-swarm's chill room. Hear more of his work:
+his permission. Two drive the robot's dance floor, two drift through the
+swarm's chill room (one of them his Halloween track). Hear more of his work:
 
 - SoundCloud: <https://soundcloud.com/austin-green-127452836>
 - YouTube: [@lordaustin2342](https://www.youtube.com/@lordaustin2342)
@@ -52,24 +53,28 @@ cleared throat), rendered with ElevenLabs and owned by PiGON EVOLUTIVE AI LLC.
 ## Ambient rooms
 
 `media/ambient/lobby.mp3`, `media/ambient/halls.mp3` — PiGON's own soundscapes,
-the same ones you hear on pigon.ai. Owned by PiGON EVOLUTIVE AI LLC.
+the same ones you hear on pigon.ai, owned by PiGON EVOLUTIVE AI LLC.
+`media/ambient/halloween.mp3` — the Halloween hum, a royalty-free track from
+**[Pixabay](https://pixabay.com/music/)**, used under the Pixabay Content License.
 
-## The night shift — Xie © and Wispie ©
+## The night shift — PokieVault ©, Xie © and Wispie ©
 
-`media/screensaver/wispie-air.mp4` — Wispie's screensaver film, the one that
-ships with Milo. **Wispie ©**, the air spirit, and **Xie ©**, the galaxy
-chameleon, are copyrighted characters from the game **PokieVault ©**
-([@pokievaults on Instagram](https://www.instagram.com/pokievaults/)).
-**PokieVault belongs to PiGON EVOLUTIVE AI LLC**, so Wispie and Xie, their looks and
-their films are © 2026 PiGON EVOLUTIVE AI LLC, all rights reserved (see LICENSE). Both
-films were made by PiGON AI from PokieVault's artwork and carry a small
-`@pokievaults` mark.
-Xie's film rides in the dance-floor archive (below); when both are present
-they take turns, one per shift.
+`media/screensaver/pokievault.mp4` — the screensaver film that ships with Milo:
+PokieVault's element wheel drifting over a galaxy, made by PiGON AI from
+PokieVault's artwork, with its `PV` mark. **PokieVault ©** is a game by
+PiGON EVOLUTIVE AI LLC ([@pokievaults on Instagram](https://www.instagram.com/pokievaults/)),
+so the wheel, the mark and the film are © 2026 PiGON EVOLUTIVE AI LLC, all rights
+reserved (see LICENSE).
 
-`media/screensaver/wispie-air.mp3` — Wispie's soundtrack was made with her
-film and is PiGON AI's own. It plays only while her film holds the shift, and
-the Mute pill silences it like everything else.
+`media/screensaver/pokievault.mp3` — its soundtrack, a royalty-free track from
+**[Pixabay](https://pixabay.com/music/)**, used under the Pixabay Content
+License. It plays only while the film holds the shift, and the Mute pill
+silences it like everything else.
+
+**Wispie ©**, the air spirit, and **Xie ©**, the galaxy chameleon, are
+copyrighted characters from PokieVault, so their looks and their films are
+© 2026 PiGON EVOLUTIVE AI LLC too. Their films ride in the dance-floor archive
+(below); when they are here, the three take turns, one per shift.
 
 `media/background/space.mp4`, `media/background/space-particles.mp4` — the
 two rooms (the robot's and the swarm's): made by PiGON AI. Owned by
@@ -77,13 +82,15 @@ PiGON EVOLUTIVE AI LLC.
 
 ## The dance-floor archive (downloaded only if you ask)
 
-The previous release's retired tracks — `dance-1.mp3`, `dance-3.mp3`,
-`relax-3.mp3`, `relax-4.mp3` — royalty-free music from
+The retired tracks — `dance-1.mp3`, `dance-3.mp3`, `relax-3.mp3`,
+`relax-4.mp3`, `dance-4.mp3`, `relax-low_beats.mp3` — royalty-free music from
 **[Pixabay](https://pixabay.com/music/)** under the Pixabay Content License;
-and Xie's night shift — `xie-space.mp4`, her film (© 2026 PiGON EVOLUTIVE AI LLC, from
+Xie's night shift — `xie-space.mp4`, her film (© 2026 PiGON EVOLUTIVE AI LLC, from
 PokieVault's artwork, `@pokievaults` mark), and `xie-space.mp3`, her drift
 music, a royalty-free track from Pixabay that keeps the Pixabay Content
-License (it is not PiGON's, unlike her film). Published on
+License (it is not PiGON's, unlike her film); and Wispie's night shift —
+`wispie-air.mp4`, her film, and `wispie-air.mp3`, her soundtrack, both
+PiGON AI's own (© 2026 PiGON EVOLUTIVE AI LLC). Published on
 `github.com/PiGON-AI/Echotools-Runtime` with a manifest that carries every
 file's checksum and these same credits. Fetched only from the menu's "Get the
 dance-floor archive", verified before use, removable in one command.

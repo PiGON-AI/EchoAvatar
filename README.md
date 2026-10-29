@@ -129,9 +129,9 @@ in the package, so Milo stays light.
 - **Transport controls** — pause, resume, stop, mute. Stop halts EchoVoice's
   queue too, so stopped means stopped.
 - **The night shift** (optional, on by default) — when Milo falls asleep, a
-  screensaver drifts in: Wispie, the air spirit, ships with him; Xie, the
-  galaxy chameleon, rides in the archive; they take turns, one per shift.
-  Each has its own soundtrack with its own speaker button — mute the shift,
+  screensaver drifts in: PokieVault's wheel over a galaxy ships with him;
+  Wispie, the air spirit, and Xie, the galaxy chameleon, ride in the archive;
+  they take turns, one per shift. Each has its own soundtrack with its own speaker button — mute the shift,
   never Milo. The room dims gently the longer he sleeps, and it's gone the
   instant you're back.
 - **Keyboard and screen readers** — run **Focus on Milo View** from the
@@ -246,7 +246,8 @@ to read your microphone; if your machine doesn't already have it, EchoAvatar
 offers to download a pinned build from GitHub — it tells you first, and the
 archive and the extracted binary are both SHA-256-verified against hard-coded
 digests before anything is used. *Get the dance-floor archive* fetches the
-previous release's tracks and Xie's film (~12 MB) from our GitHub, every file
+six retired tracks and Xie's and Wispie's films with their music (~23 MB) from
+our GitHub, every file
 verified against a fingerprint pinned in the code before it can play.
 And **Tech support** opens Milo's office, our website `echotools.dev`, inside
 his window, after a notice that says so. When it opens, Milo tells the office
