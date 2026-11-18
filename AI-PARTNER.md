@@ -30,8 +30,9 @@ opens instead). How he listens is in the status-bar menu → **Milo's ear**:
 **Wake word** (hands-free «milo» / «hello milo», plus the button). Speech
 becomes text on the user's machine through EchoVoice's Whisper pack. For him
 to *answer* questions, his **brain** must be on: status-bar menu → **Milo's
-brain** — it needs **EchoMemory**, and GitHub Copilot in VS Code or Ollama
-(local or cloud) in editors without Copilot, plus one consent card. After an
+brain** — it needs **EchoMemory**, and GitHub Copilot in VS Code, Ollama
+(local or cloud), or Claude with the user's own Anthropic API key, plus one
+consent card. After an
 answer he asks "Anything else?" once. Answers type out in the **notebook**,
 where the user can save one as a note, copy it, rate it, or type to him.
 
@@ -95,16 +96,17 @@ after tuning they fire instantly.** Never let a user judge the ear untuned.
   one-command delete).
 - **With the brain on**, the *text* of what they say to Milo (or type in his
   notebook) goes from EchoAvatar to EchoMemory on their machine, and from
-  there to the model they chose (Copilot, or Ollama — local, or Ollama's
-  cloud). Off by default; every change he proposes to their memory waits for
+  there to the model they chose (Copilot; Ollama, local or Ollama's cloud;
+  or Claude, with their own Anthropic API key). Off by default; every change he proposes to their memory waits for
   their yes.
 - EchoAvatar itself fetches from the network in **three** cases, each only
   when the user asks (links he shows open in their browser on their click):
   the ear's FFmpeg engine (~48 MB on Windows, ~28–34 MB on macOS, asked about first,
   checksum-verified, only if no ffmpeg is already on PATH), the
-  **dance-floor archive** (~12 MB from PiGON-AI/Echotools-Runtime on GitHub,
-  every file SHA-256-verified against a manifest pinned in the code, removed
-  with "EchoAvatar: Remove the Dance-Floor Archive"), and **Milo's office**
+  **music library** (17 tracks and two night-shift films with their soundtracks, ~41 MB in one zip
+  from PiGON-AI/Echotools-Runtime on GitHub, every file SHA-256-verified
+  against a manifest pinned in the code, removed with "EchoAvatar: Remove
+  Milo's Music Library"), and **Milo's office**
   (Tech support opens `echotools.dev` inside his window after a notice).
   **No telemetry exists anywhere.** DISCLOSURES.md is the authority.
 - **Milo's office** is boxed in: sound and clipboard only, no camera, no
@@ -136,8 +138,8 @@ after tuning they fire instantly.** Never let a user judge the ear untuned.
 - **Hide** (a pill, only when he floats) hides him until **Open Milo** (the
   status-bar menu), the next reply, or his side-bar icon brings him back.
 - **The night shift** (screensaver) plays a muted film; its soundtrack plays
-  through Milo's own audio path. PokieVault's wheel ships in the package;
-  Wispie's and Xie's films ride in the archive; when present they take turns.
+  through Milo's own audio path. PiGON's constellations ship in the package;
+  Wispie's and Xie's films ride in Milo's music library; when present they take turns.
   It has its own speaker button and setting (`echoavatar.screensaverSound`);
   the Mute pill silences it too. **The room dims gradually over the first five
   minutes asleep** and starts bright on the next shift — by design, not a
@@ -163,7 +165,7 @@ do tell them to press the pill.
   cues cut when the music ends.
 - **The user's own music**: the **My music…** pill (`echoavatar.musicFolder`;
   mp3/wav/ogg/m4a; `dance` and `chill` subfolders sort the moods). Those tracks
-  and the archive's tracks get the classic beat-reactive dance.
+  get the classic beat-reactive dance.
 - A watchdog alert wins over any dance; the OS reduced-motion setting stills
   him (dances include fast shakes); `echoavatar.dance` turns dancing off.
 - **Room brightness (swarm)…** in the status-bar menu
@@ -192,7 +194,7 @@ number.
 - **Rate us** on the room's pills: ⭐ Review · 💙 Follow · ☕ Coffee; "Support
   Milo" is the coffee alone. A one-time invitation appears after 25 spoken
   replies.
-- **What it costs**: ~41 MB download, ~53 MB on disk (the intro film lives
+- **What it costs**: ~27 MB download, ~41 MB on disk (the intro film lives
   on echotools.dev and Instagram, linked from "Meet EchoAvatar"); measured ~10 W more
   with the window open on a gaming laptop with an external monitor.
   "EchoAvatar: Toggle Debug Overlay" (Command Palette) shows frame rate and

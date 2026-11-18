@@ -80,19 +80,23 @@ not derived from openWakeWord's pre-trained models.
 **Royalty-free audio from Pixabay**, used and redistributed under the
 [Pixabay Content License](https://pixabay.com/service/license-summary/):
 
-- Music under `media/dance/` and `media/relax/` — royalty-free tracks from
-  [Pixabay Music](https://pixabay.com/music/) — except the four Austin
-  Green originals listed below.
-- The dance-floor archive (downloaded only when you ask, from
-  `github.com/PiGON-AI/Echotools-Runtime`): the retired tracks `dance-1.mp3`,
-  `dance-3.mp3`, `relax-3.mp3`, `relax-4.mp3`, `dance-4.mp3`,
-  `relax-low_beats.mp3` and Xie's drift soundtrack `xie-space.mp3` —
-  royalty-free tracks from [Pixabay Music](https://pixabay.com/music/).
-- The bundled night shift's soundtrack (`media/screensaver/pokievault.mp3`)
-  and the Halloween hum (`media/ambient/halloween.mp3`) — royalty-free
-  tracks from [Pixabay Music](https://pixabay.com/music/). Wispie's
-  soundtrack (`wispie-air.mp3`, in the archive) is PiGON's own and not
-  third-party.
+- The season's music inside the package, `media/dance/dance-thanksgiving.mp3`
+  and `media/relax/relax-thanksgiving.mp3`: royalty-free tracks from
+  [Pixabay Music](https://pixabay.com/music/).
+- Milo's music library (downloaded only when you ask, from
+  `github.com/PiGON-AI/Echotools-Runtime`, release `avatar-archive-v3`):
+  `dance-1.mp3`, `dance-2.mp3`, `dance-3.mp3`, `dance-4.mp3`,
+  `dance-halloween.mp3`, `dance-summer.mp3`, `relax-1.mp3`, `relax-2.mp3`,
+  `relax-3.mp3`, `relax-4.mp3`, `relax-flow.mp3`, `relax-halloween.mp3`,
+  `relax-low_beats.mp3` and Xie's drift soundtrack `xie-space.mp3`:
+  royalty-free tracks from [Pixabay Music](https://pixabay.com/music/). The
+  library's four Austin Green originals are listed below.
+- The Halloween hum (`media/ambient/halloween.mp3`) and the Thanksgiving hum
+  (`media/ambient/thanksgiving.mp3`) — royalty-free tracks from
+  [Pixabay Music](https://pixabay.com/music/). The bundled night shift's
+  film and soundtrack (`media/screensaver/pigon.mp4`, `pigon.mp3`) and
+  Wispie's soundtrack (`wispie-air.mp3`, in the music library) are PiGON's
+  own and not third-party.
 - Reaction sound effects under `media/reactions/` (excluding
   `media/reactions/MILO/`) — royalty-free effects from
   [Pixabay Sound Effects](https://pixabay.com/sound-effects/).
@@ -100,9 +104,9 @@ not derived from openWakeWord's pre-trained models.
 **Original music used with the artist's permission — Austin Green (Lord
 Austin), NOT under the Pixabay license:**
 
-- `media/dance/dance-5.mp3`, `media/dance/dance-austin.mp3` and
-  `media/relax/relax-5.mp3` are original works by Austin Green, included
-  with his permission. The same `dance-5` track is also the soundtrack of
+- `dance-5.mp3`, `dance-austin.mp3`, `relax-5.mp3` and
+  `relax-halloween-la.mp3`, in Milo's music library, are original works by
+  Austin Green, included with his permission. The same `dance-5` track is also the soundtrack of
   Milo's intro film on echotools.dev (the film no longer ships in the
   package), under the same permission. See
   [CREDITS.md](CREDITS.md) for attribution and links; the tracks play only

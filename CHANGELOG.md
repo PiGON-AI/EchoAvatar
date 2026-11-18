@@ -1,5 +1,75 @@
 # Changelog
 
+## 1.3.0, Thanksgiving
+
+> **Milo says:** Happy Thanksgiving, dudes! I can dress as a Pilgrim, a Pumpkin or a Turkey now, and leaves and pies can float in my room. My music moved to its own library to keep me light, and I'll show your reminders right in my window.
+
+- **Milo is dressing up for Thanksgiving.** Three costumes for the robot: a
+  Pilgrim with his hat and goatee, a friendly Pumpkin, and a Turkey with his
+  fan open behind him. Each pairs with its own Thanksgiving voice in
+  EchoVoice: while that voice speaks, the robot wears the costume and the
+  swarm becomes it (a pilgrim hat, a pumpkin, a turkey), with a mouth that
+  moves to the voice. The first time his window opens in the season, a card
+  offers the costumes; nothing is put on without your yes.
+- **His room joins in.** Leaves, turkeys, pies, acorns, pumpkins,
+  cranberries, owls, apples, mashed potatoes, corn and sunflowers can float
+  behind him: Menu, Music & room, Thanksgiving. After November 30 the
+  Thanksgiving entry leaves his menu, and his room is plain again.
+- **Thanksgiving music.** A Thanksgiving dance and a Thanksgiving chill track
+  ship inside, and a Thanksgiving hum for his quiet moments (Menu, Music &
+  room, Ambient).
+- **A new night shift.** When Milo falls asleep, PiGON's constellations
+  drift in: a golden lion, a winged horse and a phoenix drawn in starlight,
+  and PiGON's emerald mark, with their own soundtrack, looping without a
+  seam. They replace PokieVault's wheel, and take turns with Xie and Wispie
+  if you have his music library.
+- **Seasonal voices dress him in any month.** Pick a Halloween or
+  Thanksgiving voice in EchoVoice and he wears its costume while it speaks,
+  all year. Out of season, the everyday look you chose on a season's card
+  comes off (in 1.2.0 the Halloween look could stay on after the season).
+- **Milo says the holidays.** Once per project, in his own voice: "Happy
+  Thanksgiving, dudes!" the week of Thanksgiving, "Happy Holidays, dudes!" and
+  "Merry Christmas, dudes!" in December, and a happy New Year. Never during a
+  call.
+- **Milo on a diet.** He is about 17 MB lighter: only the season's two tracks
+  ship inside. Every other track, plus Xie's and Wispie's night-shift films,
+  lives in **Milo's music library** (17 tracks and two films, about 41 MB in
+  one download). Your first dance offers it once, or your own music folder;
+  the season's track plays either way. If you had the old archive, it keeps
+  playing and his menu offers the update.
+- **A Calendar button.** Milo's menu opens EchoMemory's calendar, where your
+  reminders and deadlines live.
+- **Reminder cards.** When EchoMemory rings a reminder, Milo says it and his
+  window shows a card: Done, In 10 min, In an hour or Tomorrow 9 am, and Join
+  for a meeting.
+- **A reminder you didn't ask for waits for your yes.** When Milo suggests
+  one himself, a card shows the task and its time with *Yes, remind me*;
+  nothing is saved until you press it, and Undo stays on the notification.
+- **Milo rests during a call.** While an EchoLive call is on, his ear lets go
+  of your microphone in every window, and holding his mic gets his own line:
+  "Hey dude, I'm resting now. I'll be back after the meeting." His ear comes
+  back when the call ends.
+- **Claude as Milo's brain.** EchoMemory can now use Claude with your own
+  Anthropic API key, beside Copilot and Ollama. Milo names it in his consent,
+  says plainly when the key is missing, wrong or out of credit, and opens the
+  fix without a reload.
+- **What his brain sees, now with your calendar.** With his brain on, a
+  question about your day also sends your reminders and calendar (meetings
+  and calls included) to the model you chose, only when the question needs
+  them. His consent card says so in the same words as EchoMemory.
+- **One audio engine for the suite.** EchoLive uses the same verified audio
+  engine as Milo's ear. The download dialog says what the asking extension
+  needs it for, in that extension's own words.
+- **Safer downloads, checked again before use.** Milo plays only the files
+  his music library's pinned list names. A track's fingerprint is checked
+  every time it plays, and a film's when Milo's window opens. His audio
+  engine is checked again before every start and every time it opens the
+  microphone. Two
+  calls in two windows can't cancel each other's rest for his ear, reminder
+  cards waiting in line are capped at 20, and the library reader refuses any
+  zip whose parts don't agree.
+- **A new icon.** Milo Aura.
+
 ## 1.2.0, Halloween
 
 - **Milo is dressing up for Halloween.** Three costumes for the robot: a

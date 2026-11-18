@@ -71,7 +71,8 @@ in the package, so Milo stays light.
   (say "Hello Milo" or his name, hands-free). Speech is recognized on your
   machine; free questions use EchoVoice's on-device Whisper pack (Windows and Apple-silicon Macs). With
   **EchoMemory** and your one-time yes, he answers with his brain — GitHub
-  Copilot in VS Code, or Ollama (local or cloud) elsewhere — and every change
+  Copilot in VS Code, Ollama (local or cloud), or Claude with your own
+  Anthropic API key — and every change
   he proposes to your memory waits for your yes. After he answers, he asks
   "Anything else?" once.
 - **His notebook** — one paper page for everything he says. Answers type out
@@ -83,6 +84,12 @@ in the package, so Milo stays light.
   the **microphone**, and the **Notebook**. A status strip shows one fact at
   a time — how he listens, which microphone, which brain, your Inbox — and
   A− / A+ resize everything (never below 11 px).
+- **Seasons** — for Halloween and Thanksgiving, Milo dresses up and his room
+  joins in. Pick a seasonal voice in EchoVoice and the robot wears its
+  costume while it speaks, and the swarm becomes it; in season, tick the
+  things that float in his room under Menu, Music & room. Seasonal voices
+  dress him in any month. Around the holidays he says the day's greeting
+  once, in his own voice.
 - **Milo's office** — *Tech support* opens our website's office, where Milo
   helps with setup, inside his window after a notice that says so. "← Milo"
   brings him back. See *Privacy and network use* below for exactly what it's
@@ -104,16 +111,18 @@ in the package, so Milo stays light.
 - **Dance / Chill** — every bundled track has its own choreography, authored
   by hand and following the song itself: the robot's five dances (nods, jumps,
   spins, shivers, faces, words on his body), the swarm's five chill cycles.
-  This release's dance floor ships inside the extension (see CREDITS.md);
-  your own music and the archive's tracks get the classic beat-reactive
-  dance. Stop from the **Stop** pill or
+  The season's dance and chill tracks ship inside the extension (see
+  CREDITS.md). Every other track lives in **Milo's music library**: 17
+  tracks plus Xie's and Wispie's night-shift films, about 41 MB in one
+  download. Milo offers it on your first dance, and *Get Milo's music
+  library* in his menu fetches it from our GitHub only when you ask. Every
+  track is checked against a pinned fingerprint every time it plays, every
+  film when Milo's window opens, and
+  *Remove Milo's music library* deletes it in one command. Your own music
+  gets the classic beat-reactive dance. Stop from the **Stop** pill or
   the transport bar. Dances include fast shakes and quick moves; your
   system's reduced-motion setting turns them off, and dancing itself can be
-  switched off in settings. Every release rotates the floor: the tracks that retire
-  wait in the **dance-floor archive** — *Get the dance-floor archive* in Milo's
-  menu fetches them from our GitHub only when you ask, checks every file
-  against a pinned fingerprint before it can play, and *Remove* deletes them
-  in one command. **Your own music too:** the **My music…** pill picks a
+  switched off in settings. **Your own music too:** the **My music…** pill picks a
   folder with `dance` and `chill` subfolders, and your files join his
   playlist, never leaving your machine.
 - **Break check-ins** (optional) — after 90 minutes, 3 hours, and 5 hours of
@@ -129,8 +138,9 @@ in the package, so Milo stays light.
 - **Transport controls** — pause, resume, stop, mute. Stop halts EchoVoice's
   queue too, so stopped means stopped.
 - **The night shift** (optional, on by default) — when Milo falls asleep, a
-  screensaver drifts in: PokieVault's wheel over a galaxy ships with him;
-  Wispie, the air spirit, and Xie, the galaxy chameleon, ride in the archive;
+  screensaver drifts in: PiGON's constellations (a golden lion, a winged
+  horse, a phoenix and PiGON's emerald mark) ship with him;
+  Wispie, the air spirit, and Xie, the galaxy chameleon, ride in his music library;
   they take turns, one per shift. Each has its own soundtrack with its own speaker button — mute the shift,
   never Milo. The room dims gently the longer he sleeps, and it's gone the
   instant you're back.
@@ -204,7 +214,9 @@ remembers them: ask him what you saved, or have him sum something up; his
 version waits in your Inbox for your yes. It remembers **only what you choose
 to keep**, and it's where Milo's brain comes from: with it installed he
 talks back, your Inbox count shows on his strip, his answers can quote your
-notes, and any page of his notebook can be saved as a note.
+notes, and any page of his notebook can be saved as a note. **Calendar** in
+Milo's menu opens EchoMemory's calendar, and when a reminder rings, Milo says
+it and shows a card in his window: Done, or snooze it.
 
 EchoMemory is free: [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=PigonAI.echomemory)
 · [Open VSX](https://open-vsx.org/extension/PigonAI/echomemory). If it isn't
@@ -214,10 +226,11 @@ installed, Milo offers it the first time you talk or type to him.
 
 We'd rather tell you than have you find out.
 
-- **Package:** about 41 MB to download, 53 MB on disk. Most of that is
+- **Package:** about 27 MB to download, 41 MB on disk. Most of that is
   Milo's ear (an on-device speech runtime, ~19 MB, used only if you turn the
-  ear on), the music, and the screensaver film. Milo is getting shredded in 1.1.0:
-  his intro film moved to the web, and he dropped about 10 MB.
+  ear on), the night shift's film, and the season's music. Milo went on a diet:
+  every other track moved to his music library, which downloads only if you
+  ask (about 41 MB, once).
 - **Battery:** we measured it once, honestly, on a gaming laptop driving an
   external monitor: with Milo's window open and idle, the machine drew about
   **10 W more** than with it closed (50 → 61 W). On that machine the discrete
@@ -245,10 +258,11 @@ to talk or the wake word, off by default) needs FFmpeg
 to read your microphone; if your machine doesn't already have it, EchoAvatar
 offers to download a pinned build from GitHub — it tells you first, and the
 archive and the extracted binary are both SHA-256-verified against hard-coded
-digests before anything is used. *Get the dance-floor archive* fetches the
-six retired tracks and Xie's and Wispie's films with their music (~23 MB) from
+digests before anything is used, and the engine again before every start and every time it opens your microphone. *Get Milo's music library* fetches 17
+tracks and Xie's and Wispie's films with their music (~41 MB, one zip) from
 our GitHub, every file
-verified against a fingerprint pinned in the code before it can play.
+verified against a fingerprint pinned in the code: each track every time it
+plays, each film when Milo's window opens.
 And **Tech support** opens Milo's office, our website `echotools.dev`, inside
 his window, after a notice that says so. When it opens, Milo tells the office
 which EchoTools versions you have, your editor and its version, your
